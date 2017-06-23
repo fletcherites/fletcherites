@@ -1,0 +1,59 @@
+h1{
+	font-family: Arial;
+	text-align: center;
+}
+
+.image-wrapper{
+	width: 100%;
+	height: 120vw;
+	border: 2px solid black;
+	float: left;
+	position: relative;
+	margin-top: 5px; 
+}
+
+.large{
+	height: 60vw;
+}
+
+.image-wrapper p{
+	font-family: Avenir;
+	text-align: center;
+}
+
+.image-wrapper:hover .image{
+	opacity: 0.3;
+}
+
+.image-wrapper:hover .middle{
+	opacity:1;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 10px 32px;
+}
+
+@media screen and (min-width:850px) {
+	.image-wrapper{
+		margin-left: 0.5%;
+		margin-right: 0.5%;
+		margin-top: 1.3%;
+		width: 24%;
+		height: 400px;
+	}
+	.large{
+		width: 47%;
+	}
+}
