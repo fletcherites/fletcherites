@@ -248,7 +248,7 @@
 		{
 			title: "Summer BBQ Live Music",
 			imgSrc: "./FletchPhotos/20170617_205301.jpg",
-			size: "small"
+			size: "large"
 		},
 		{
 			title: "Summer BBQ",
@@ -271,14 +271,14 @@
 			size: "small"
 		},
 		{
-			title: "Summer BBQ",
-			imgSrc: "./FletchPhotos/20170617_211014.jpg",
-			size: "small"
-		},
-		{
 			title: "House Quiz",
 			imgSrc: "./FletchPhotos/20170622_205619.jpg",
 			size: "large"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_211014.jpg",
+			size: "small"
 		},
 		{
 			title: "Summer BBQ",
