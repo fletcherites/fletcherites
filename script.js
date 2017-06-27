@@ -174,6 +174,116 @@
 			title: "End of LQ party",
 			imgSrc: "./FletchPhotos/20170324_215129.jpg",
 			size: "large"
+		},
+		{
+			title: "Athletics",
+			imgSrc: "./FletchPhotos/20170423_150139.jpg",
+			size: "large"
+		},
+		{
+			title: "End of LQ party",
+			imgSrc: "./FletchPhotos/20170324_215153.jpg",
+			size: "small"
+		},
+		{
+			title: "House Athletics",
+			imgSrc: "./FletchPhotos/20170423_151757.jpg",
+			size: "small"
+		},
+		{
+			title: "House Athletics",
+			imgSrc: "./FletchPhotos/20170423_151954.jpg",
+			size: "large"
+		},
+		{
+			title: "House Athletics",
+			imgSrc: "./FletchPhotos/20170423_151757.jpg",
+			size: "small"
+		},
+		{
+			title: "House Athletics",
+			imgSrc: "./FletchPhotos/20170428_173633.jpg",
+			size: "small"
+		},
+		{
+			title: "House Athletics",
+			imgSrc: "./FletchPhotos/20170428_173847.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_185916.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_200220.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_201632.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_202030.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_202041.jpg",
+			size: "small"
+		},
+		{
+			title: "Global buffet (food cooked by pupils)",
+			imgSrc: "./FletchPhotos/20170506_204810.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_192622.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ Live Music",
+			imgSrc: "./FletchPhotos/20170617_205301.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_205314.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_205340.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_205401.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_210950.jpg",
+			size: "small"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_211014.jpg",
+			size: "small"
+		},
+		{
+			title: "House Quiz",
+			imgSrc: "./FletchPhotos/20170622_205619.jpg",
+			size: "large"
+		},
+		{
+			title: "Summer BBQ",
+			imgSrc: "./FletchPhotos/20170617_213924.jpg",
+			size: "small"
 		}
 	],
 	template = document.querySelector('#template').innerHTML,
