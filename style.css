@@ -23,7 +23,8 @@ h1{
 }
 
 .large{
-  height: auto;
+  image-orientation: from-image;
+
 }
 
 .image-wrapper p{
@@ -33,14 +34,21 @@ h1{
 }
 
 .image-wrapper img{
-  transition: .4s ease;
-  width: 100%;
-    height: auto;
+    width: 100%;
     opacity: 1;
+    display: block;
+    image-rendering: pixelated;
 }
 
 
 @media screen and (min-width:850px) {
+  .image-wrapper img{
+      transition: .4s ease;
+      height: 100%;
+      width: auto;
+      opacity: 1;
+  }
+
   .body{
     height: 100%;
   }
@@ -59,23 +67,26 @@ h1{
   .header h1{
     color: white;
   }
-  .large img{
-    height: 105%;
-    width: auto;
-  }
   .image-wrapper{
     margin-left: 0.5%;
     margin-right: 0.5%;
     margin-top: 1.3%;
-    width: 32%;
-    height: 17vw;
+    width: 18%;
+    height: 18vw;
     overflow: hidden;
+    border-radius: 0px;
   }
-  .large{
-    height: 35.3vw;
+  .large a img{
+    width: 100%;
+    height: auto;
+  }
+
+  .large .lightbox-target img{
     width: auto;
-    image-orientation: from-image;
-    overflow: hidden;
+  }
+
+  .small img{
+    margin-left: -9vw;
   }
 
   .image-wrapper:hover .image{
@@ -90,7 +101,7 @@ h1{
       transition: 0.2s ease;
       opacity: 0;
       position: absolute;
-    top: 50%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
