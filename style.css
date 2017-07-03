@@ -61,8 +61,6 @@ h1{
   }
   .footer {
     background-color: #1976D2;
-    position: relative;
-
   }
   .header h1{
     color: white;
@@ -83,6 +81,9 @@ h1{
 
   .large .lightbox-target img{
     width: auto;
+  }
+  .small .lightbox-target img{
+    height: auto;
   }
 
   .small img{
@@ -200,8 +201,8 @@ a.lightbox-close:after {
 }
 
 .lightbox-target:target img {
-  max-height: 75%;
-  max-width: 75%;
+  max-height: 85%;
+  max-width: 85%;
   top:0px;
   left: 0px;
 }

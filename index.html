@@ -13,7 +13,7 @@
 <div class="result"></div>
 
 <script src="script.js" type="template" id="template">
-	<div class="image-wrapper {{size}}">
+	<div class="image-wrapper {{size}}" id="img{{id}}">
 		<a class = "lightbox" href="#{{id}}"><img src="{{imgSrc}}" class="image"></a>
 		<div class="middle">
 			<div class="text">
@@ -22,7 +22,7 @@
 		</div>
 		<div class="lightbox-target" id="{{id}}">
 			<img src="{{imgSrc}}">
-			<a class="lightbox-close" href=""></a>
+			<a class="lightbox-close" href="#img{{id}}"></a>
 		</div>
 	</div>
 </script>

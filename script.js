@@ -354,6 +354,8 @@
       .replace( /\{\{size\}\}/, data[i].size )
       .replace( /\{\{id\}\}/, data[i].id)
       .replace( /\{\{id\}\}/, data[i].id)
+      .replace( /\{\{id\}\}/, data[i].id)
+      .replace( /\{\{id\}\}/, data[i].id)
       .replace( /\{\{imgSrc\}\}/, data[i].imgSrc )
       .replace( /\{\{imgSrc\}\}/, data[i].imgSrc ); 
   }
